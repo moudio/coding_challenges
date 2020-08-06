@@ -32,9 +32,7 @@ class Queue {
 
 let queue = new Queue();
 queue.dequeue();
-console.log(queue);
 queue.enqueue(1);
 queue.enqueue(3);
 queue.enqueue(5);
 queue.dequeue();
-console.log(queue);
